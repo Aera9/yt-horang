@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <style>
+      
+
+      
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" 
+        src="icons/hamburger-menu.svg">
+        <img class="youtube-logo"
+        src="icons/youtube-logo.svg">
+
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" 
+          src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        
+        <button class="voice-search-button">
+          <img class="voice-search-icon"  
+          src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+
+        </div>
+
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+
+        </div>
+
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/notifications.svg">
+          <div class="notifications-count">7</div>
+          <div class="tooltip">Notifications</div>
+
+        </div>
+
+        <img class="current-user-picture" src="https://i.pinimg.com/564x/e0/e3/78/e0e3784d5a5cd1068f756c4bb8dfd909.jpg">
+        </div>
+      </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/bM4mvsjT_nI?si=WIRrfeepPK-rTRCR">
+            <img class="thumbnail" src="thumbnail/cover_iu.jpg"></a>
+            <div class="video-time">4:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://i.pinimg.com/564x/bf/f9/75/bff975ea74641a6963a9cb4ed7aa7052.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/bM4mvsjT_nI?si=WIRrfeepPK-rTRCR">
+              노래한번 배운적없는 우승자🌸 𝗜 아이유 𝗜 Love wins all 𝐯𝐨𝐜𝐚𝐥 𝐛𝐲 양다혜 🎵</a>
+              </p>
+              <p class="video-author">
+                더 스트릿 STREET SINGER
+              </p>
+              <p class="video-stats">
+                481K views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/BzJdUkpKVA4?si=sNWilauYeB8J7rzf">
+            <img class="thumbnail" src="https://i.pinimg.com/736x/c0/d0/63/c0d063f6a3081fd1cd1a3225440b132e.jpg"></a>
+            <div class="video-time">4:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://i.pinimg.com/564x/4f/46/f1/4f46f15b0570ae639378299e14cccecb.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/BzJdUkpKVA4?si=sNWilauYeB8J7rzf">
+                  도경수 Doh Kyung Soo 'Mars' MV</a>
+              </p>
+              <p class="video-author">
+                컴퍼니수수 Company Soosoo
+              </p>
+              <p class="video-stats">
+                3.4M views · 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/v9lZPRg71Tk?si=Z0LlWlgD8F1Yafj-">
+            <img class="thumbnail" src="thumbnail/dk_thumbnail1.jpg"></a>
+            <div class="video-time">2:49</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="thumbnail/going_seventeen_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/v9lZPRg71Tk?si=Z0LlWlgD8F1Yafj-">
+                 [COVER] 도겸 - ベテルギウス (Betelgeuse) (원곡 : 優里)</a>
+              </p>
+              <p class="video-author">
+                SEVENTEEN
+              </p>
+              <p class="video-stats">
+                111K views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/DDsuDUu0uv0?si=cMgDx-UmUbiXbKdz">
+            <img class="thumbnail" src="thumbnail/bi_thumbnail_loved.jpg"></a>
+            <div class="video-time">2:51</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://i.pinimg.com/564x/57/91/0d/57910de34701b08084bc48d44e291822.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/DDsuDUu0uv0?si=cMgDx-UmUbiXbKdz">
+                B.I (비아이) ‘Loved’ Official MV </a>
+              </p>
+              <p class="video-author">
+                131online
+              </p>
+              <p class="video-stats">
+                1B views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/DitzivZryNs?si=cNwwl6WEGOrrf2rX">
+            <img class="thumbnail" src="https://i.pinimg.com/564x/06/81/bb/0681bb54b3ebc2f12f694a5fc19a61f5.jpg"></a>
+            <div class="video-time">3:01</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://i.pinimg.com/564x/22/9f/67/229f6723c39d8edcd023352f163745e5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/DitzivZryNs?si=cNwwl6WEGOrrf2rX">
+                 TREASURE Stupid_mmsub </a>
+              </p>
+              <p class="video-author">
+                rjejnsfjkn
+              </p>
+              <p class="video-stats">
+                10K views · 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/JleoAppaxi0?si=cyYsK3pki3DmEqPh">
+            <img class="thumbnail" src="thumbnail/iu_thumbnail.jpg"></a>
+            <div class="video-time">5:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://i.pinimg.com/736x/9b/66/ee/9b66ee4a6c55fdbd1cb7fc43dbd3a250.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://youtu.be/JleoAppaxi0?si=cyYsK3pki3DmEqPh">
+                IU 'Love wins all' MV</a>
+              </p>
+              <p class="video-author">
+                이지금 [IU Official]
+              </p>
+              <p class="video-stats">
+                1B views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+          
+  
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/m5o4dn6gW7c?si=mLzotSymDXBfPBmv">
+                  <img class="thumbnail" src="thumbnail/sunjae_thumbnail.jpg"></a>
+                  <div class="video-time">4:03</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="https://i.pinimg.com/736x/a5/68/61/a56861d9472c2466ff0f31ba1e322431.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/m5o4dn6gW7c?si=mLzotSymDXBfPBmv">
+                      변우석 / 류선재 (AI Cover) - 그랬나봐 </a>
+                    </p>
+                    <p class="video-author">
+                      쨔쨔 AI 음악모음집
+                    </p>
+                    <p class="video-stats">
+                      125K views &#183; 2 weeks ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/JByz3mCM0KM?si=fWq8ov0ayPRo6HPY">
+                  <img class="thumbnail" src="thumbnail/didi_thumbnail.jpg"></a>
+                  <div class="video-time">24:14</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/didi_thumbnail_profile.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/JByz3mCM0KM?si=fWq8ov0ayPRo6HPY">
+                       Why don't Koreans Listen to K-POP?| Didi's Korean Podcast </a>
+                    </p>
+                    <p class="video-author">
+                      Didi's Korean Culture Podcast
+                    </p>
+                    <p class="video-stats">
+                      22K views &#183; 5 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/ynOtYmpZxak?si=1CTRoXOF8B2WduOO">
+                  <img class="thumbnail" src="thumbnail/babymonster_dream.jpg"></a>
+                  <div class="video-time">3:14</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/babymonster_icoon.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/ynOtYmpZxak?si=1CTRoXOF8B2WduOO">
+                        BABYMONSTER - 'DREAM' (PRE-DEBUT SONG)
+                      </a>
+                    </p>
+                    <p class="video-author">
+                      BABYMONSTER
+
+                    </p>
+                    <p class="video-stats">
+                      63M views &#183; 1 year ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/Mqlj65nqChU?si=zXfUxZiw6q6B8YaU">
+                  <img class="thumbnail" src="thumbnail/find_me_in_your_memory.jpg"></a>
+                  <div class="video-time">4:03</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/unnamed.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/Mqlj65nqChU?si=zXfUxZiw6q6B8YaU">
+                        [MV] 주영 - 나의 오늘이 너의 오늘을 만나 [그 남자의 기억법 OST Part.1 (Find me in your memory OST Part.1)]</a>
+                    </p>
+                    <p class="video-author">         
+                      VLENDING 블렌딩
+      
+                    </p>
+                    <p class="video-stats">
+                      1B views &#183; 4 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              
+
+             
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="">
+                  <img class="thumbnail" src="thumbnail/i_regret_ost.jpg"></a>
+                  <div class="video-time">3:36</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/one_the_k_icon.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/JleoAppaxi0?si=cyYsK3pki3DmEqPh">
+                        [MV] Houdini(후디니) _ I regret(널 사랑한 걸 후회해)</a>
+                    </p>
+                    <p class="video-author">
+                      1theK (원더케이)
+
+                    </p>
+                    <p class="video-stats">
+                      411K views &#183; 3 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/_sUfCi_v5Wg?si=9cRuJIrGZTKODrpo">
+                  <img class="thumbnail" src="thumbnail/younha_event_horizon.jpg"></a>
+                  <div class="video-time">5:23</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/one_the_k_icon.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/73V3xrfiYMo?si=a3B3B8QXd1w7iaZQ">
+                        [MV] YOUNHA(윤하) _ 사건의 지평선(Event Horizon)</a>
+                    </p>
+                    <p class="video-author">
+                      1theK (원더케이)
+
+                    </p>
+                    <p class="video-stats">
+                      3.2M views &#183; 2 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/Ctww6HIZFh4?si=DRWWX3ItV6u8NWsN">
+                  <img class="thumbnail" src="thumbnail/25_21_thumbnail.jpg"></a>
+                  <div class="video-time">3:22</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/25_21_profile.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/Ctww6HIZFh4?si=DRWWX3ItV6u8NWsN">
+                      Ji-woong ~ Seung-wan - Night Changes | Twenty Five Twenty One. </a>
+                      အီချန်း
+                    </p>
+                    <p class="video-author">
+                      elmyrys
+                    </p>
+                    <p class="video-stats">
+                      890K views &#183; 2 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/0RA2CsQmN2o?si=YrgzrCxT04Qa-cM3">
+                  <img class="thumbnail" src="thumbnail/heeseung_love_wins.jpg"></a>
+                  <div class="video-time">1:36</div>
+                
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="https://i.pinimg.com/564x/53/32/7f/53327f829568c27eb3da44c2a7b07722.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/0RA2CsQmN2o?si=YrgzrCxT04Qa-cM3">
+                        ENHYPEN HEESEUNG 'Love Wins All' cover by IU ( FATE TOUR PLUS SEOUL ENHYPEN)</a>
+                    </p>
+                    <p class="video-author">
+                      deknessii
+                    </p>
+                    <p class="video-stats">
+                      266K views &#183; 3 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <a href="https://youtu.be/VCexOngHnA4?si=6Tr0a49zm5FMv1aN">
+                  <img class="thumbnail" src="thumbnail/svt_lie_again.jpg"></a>
+                  <div class="video-time">3:20</div>
+                
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnail/going_seventeen_profile.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/VCexOngHnA4?si=6Tr0a49zm5FMv1aN">
+                        [LYRICS/가사] SEVENTEEN (세븐틴) - 거짓말을 해 (Lie Again) [3rd Full Album 'An Ode']</a>
+                    </p>
+                    <p class="video-author">
+                      SEVENTEEN
+                    </p>
+                    <p class="video-stats">
+                      2.7M views &#183; 4 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              
+
+                
+  
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                    <a href="https://youtu.be/0hLU8qyu2BY?si=Q3XzjN9eR1smndhv">
+                    <img class="thumbnail" src="thumbnail/evelyn_thumbnail.jpg"></a>
+                    <div class="video-time">20:16</div>
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-picture" src="thumbnail/evelyn_profile.jpg">
+                    </div>
+                    <div class="video-info">
+                      <p class="video-title">
+                        <a class="video-link" href="https://youtu.be/0hLU8qyu2BY?si=Q3XzjN9eR1smndhv">
+                        EATING ALL GARLIC FLAVORED FOOD IN KOREA FOR 24 HOURS!!!</a>
+                      </p>
+                      <p class="video-author">
+                        HJ Evelyn
+                      </p>
+                      <p class="video-stats">
+                        2.7M views &#183; 9 months ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                    <a href="https://youtu.be/aIkuNF2kbpY?si=qVbp1zeiX-DF5gnj">
+                    <img class="thumbnail" src="thumbnail/nina_thumbnail1.jpg"></a>
+                    <div class="video-time">26:28</div>
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-picture" src="thumbnail/nina_thumbnail_profile.jpg">
+                    </div>
+                    <div class="video-info">
+                     <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/aIkuNF2kbpY?si=qVbp1zeiX-DF5gnj">
+                        WEEKEND IN LA VLOG: traveling alone, healing time with friends,beach day,room service mukbang </a>
+                      </p>
+                      <p class="video-author">
+                        oh no nina
+                      </p>
+                      <p class="video-stats">
+                        39K views &#183; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                    <a href="https://youtu.be/GrG2-oX5z24?si=BbBSvxd-yy6zS-UG">
+                    <img class="thumbnail" src="https://i.pinimg.com/474x/6d/c3/47/6dc3470f6698bc499f95a034654b450c.jpg"></a>
+                    <div class="video-time">11:11</div>
+                  
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-picture" src="https://i.pinimg.com/564x/53/32/7f/53327f829568c27eb3da44c2a7b07722.jpg">
+                    </div>
+                    <div class="video-info">
+                      <p class="video-title">
+                        <a class="video-link" href="https://youtu.be/GrG2-oX5z24?si=BbBSvxd-yy6zS-UG">
+                         Relax with Cats: Gentle Melodies for a Peaceful Mind </a>
+                      </p>
+                      <p class="video-author">
+                        Cat쮸트
+                      </p>
+                      <p class="video-stats">
+                        5M views &#183; 2 months ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="video-preview">
+          
+                  <div class="thumbnail-row">
+                    <a href="https://youtu.be/2lTN_tCtuq0?si=dFsPuv3F-11U-GsC">
+                    <img class="thumbnail" src="thumbnail/going_seventeen_thumbnail.jpg">
+                    </a>
+                    <div class="video-time">22:47</div>
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-picture" src="thumbnail/going_seventeen_profile.jpg">
+                    </div>
+                    <div class="video-info">
+                  <p class="video-title">
+                      <a class="video-link" href="https://youtu.be/2lTN_tCtuq0?si=dFsPuv3F-11U-GsC">
+                        [GOING SEVENTEEN]EP.18 TTT에 빠지다 #1 (Dive into TTT #1) (Water Sports Ver.)</a>
+                      </p>
+                      <p class="video-author">
+                        SEVENTEEN
+                      </p>
+                      <p class="video-stats">
+                        12M views &#183; 2 years ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                    <a href="https://youtu.be/7BpbY4MHco0?si=0A2QBAfELzibkoR2">
+                    <img class="thumbnail" src="thumbnail/vicky_korean_thumbnail.jpg"></a>
+                    <div class="video-time">59:25</div>
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-picture" src="thumbnail/vicky_korean_profile.jpg">
+                    </div>
+                    <div class="video-info">
+                      <p class="video-title">
+                        <a class="video-link" href="https://youtu.be/7BpbY4MHco0?si=0A2QBAfELzibkoR2">
+                         Korean Causative Verb #1 |-이/리/히/기/우/추 Short Causative Verbs </a>
+                      </p>
+                      <p class="video-author">
+                        Korean with Miss Vicky 빅키샘 한국어
+                      </p>
+                      <p class="video-stats">
+                        10K views · 9 months ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </section>
+
+
+    </main>
+
+
+      
+
+   
+
+    
+
+    </body>
+  </html>
